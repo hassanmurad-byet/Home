@@ -1,0 +1,376 @@
+#home {
+    /* height: calc(100vh -  2rem); */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    animation: 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+}
+
+
+.backgroundimg {
+    max-width: 100%;
+    width: 380px;
+    height: auto;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+
+
+
+}
+
+.homeitem {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.introContent {
+    /* border: 1px solid red; */
+    margin: 5rem auto;
+    /* height: 80vh; */
+    /* width: 100vw; */
+    padding: 5rem 20rem;
+    /* font-size: 3rem; */
+    font-weight: 700;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: -2rem;
+
+
+
+
+}
+
+.allintro {
+    display: grid;
+    text-align: left;
+    /* border: 1px solid red; */
+    /* margin-top: -2.5rem; */
+}
+
+
+.introName {
+    color: rgb(69, 69, 69);
+    font-size: 0px;
+    /* border: 1px solid red.; */
+    padding: 3.4rem;
+    margin-left: -6rem;
+
+
+
+
+
+}
+
+.introtext {
+    font-size: 45px;
+}
+
+.small {
+    font-size: 45px;
+    color: rgb(69, 69, 69);
+    margin-left: -4rem;
+}
+
+.intropara {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(108, 108, 108);
+    
+
+
+}
+
+.type {
+    font-size: 20px;
+
+
+}
+.introdes{
+    color: rgb(251, 131, 101);
+}
+
+.btnlinkss {
+    /* border: 1px solid red; */
+}
+
+.hireme {
+    text-decoration: none;
+    border: 1px solid rgb(56, 55, 55);
+    color: rgb(77, 76, 76);
+    padding: 5px 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.hireme:hover {
+    background-color: rgb(52, 52, 52);
+    color: rgb(255, 241, 241);
+}
+
+.btnImgs {
+
+    object-fit: cover;
+    margin: auto 6px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.mylinks {
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+
+  background-color: rgb(211, 219, 225);
+    /* border: 1px solid black; */
+
+    height: 25rem;
+
+    display: grid;
+    justify-content: flex-end;
+
+    /* margin: 0rem 15rem; */
+    padding: 0rem 2rem;
+    /* transform:rotate(100deg); */
+    margin-top: -50rem;
+
+
+
+}
+
+.Hlinks {
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid red; */
+
+}
+
+/* .Hlinks:hover{
+    color: rgb(255, 255, 255);
+} */
+.ballicons {
+    width: 18px;
+    height: 18px;
+    margin-top: 11px;
+    color: black;
+    /* border: 1px solid blue; */
+
+}
+
+.ballicons:hover {
+    color: white;
+}
+
+.balls {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.3);
+    background-color: rgb(255, 255, 255);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.ball:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+
+.ball {
+    cursor: pointer;
+    margin: 1rem;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+    background-color: rgb(255, 255, 255);
+    animation: animate 5s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+}
+
+.ball:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+
+
+@media screen and (max-width: 940px) {
+   
+    #home {
+        /* height: calc(100vh -  0rem); */
+        display:grid;
+        justify-content: center;
+        background-color: rgb(211, 219, 225);
+        position: static;
+        overflow: hidden;
+    }
+    .homeitem {
+      margin-top: 3rem;
+    }
+    .introContent {
+       
+        margin: 3rem auto;
+        padding:3rem 20rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        margin-top: -2rem;
+    }
+    .allintro {
+    
+    }
+    .backgroundimg {
+        /* max-width: 100%; */
+        width: 520px;
+        height: 340px;
+        box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+
+
+
+    }
+    .introtext {
+        font-size: 40px;
+    }
+    .introName {
+        color: rgb(69, 69, 69);
+        font-size: 0px;
+        padding: 3rem;
+        margin-left: 6rem;
+      
+
+    }
+    .small {
+        font-size: 20px;
+        color: rgb(69, 69, 69);
+        margin-left: -4rem;
+    }
+    .type {
+        font-size: 15px;
+    
+    
+    }
+    .introdes:hover{
+        color: antiquewhite;
+        
+    }
+    .intropara {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: rgb(108, 108, 108);
+    
+    
+    }
+
+
+.balls {
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.3);
+    margin-right: 5rem;
+
+    background-color: rgb(255, 255, 255);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+    .mylinks {
+        box-shadow: none;
+        /* border: 1px solid black; */
+        background-color: rgb(255, 255, 255);
+        transition: all 1s ease-in-out;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        /* margin: 0rem 15rem; */
+        padding: 0rem 2rem;
+        margin-top: 10rem;
+        background-color: none;
+
+
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    #home {
+       
+        /* height:calc(100vh - 0rem); */
+  
+        /* overflow: hidden; */
+        display:grid;
+        justify-content: center;
+        /* margin-top: 0rem; */
+       
+    }
+   .small{
+    margin-left: 10px;
+   }
+    .balls {
+      display: flex;
+      margin-top: -5rem;
+      margin-right: 3.5rem;
+    
+    }
+    .mylinks {
+            box-shadow: none;
+            /* border: 1px solid rgb(85, 85, 85); */
+            height: 4.5rem;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 5px 5px 5px rgba(217, 217, 217, 0.9);
+            background-color: rgb(255, 255, 255);
+            margin-top: -5rem;
+    
+    
+    
+        }
+
+}

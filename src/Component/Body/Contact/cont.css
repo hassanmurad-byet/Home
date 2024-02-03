@@ -1,0 +1,247 @@
+.Contact{
+
+    background-color: rgb(211, 219, 225); 
+    padding: 5rem 6rem;   
+    display: flex;
+    justify-content: left;
+}
+.allcontactsinfo{
+    margin-left: 10rem;
+    display:grid;
+    justify-content: center;
+   
+}
+.myclis{
+
+  margin-left: -0rem;
+}
+.clients{
+
+    display:flex;
+    text-align: center;
+    margin: 10px 0rem;
+    /* border: 1px solid red; */
+   
+
+}
+
+.contcard {
+  
+    width: 300px;
+    height: 200px;
+    margin: 5rem 1rem;
+    color: #171718;
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient(135deg, rgb(237, 237, 237)0%, rgb(191, 220, 236)100%);
+    box-shadow: 0 18px 14px rgba(0, 0, 0, .22);
+
+
+}
+
+
+.contlogos {
+    margin: 10px auto;
+    width: 27px;
+    height: 27px;
+}
+.here {
+    margin-top: -12px;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.inf{
+    color: #616161;
+    font-size: 13px;
+
+}
+
+.contmyball {
+    cursor: pointer;
+    margin: 2rem 8rem;
+
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+    background-color: rgb(255, 255, 255);
+    animation: animate 5s ease-in-out infinite;
+    transition: all .2s ease-in-out;
+}
+
+.contmyball:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+
+
+
+
+
+
+#mycontacts{
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.contactform{
+    /* margin: 1rem; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 1rem;
+
+  
+
+}
+
+.name,.email,.msg,.phone,.subject{
+    font-size: medium;
+    max-width: 100%;
+    width: 66vw;
+    margin: 6px  0rem;
+    padding: 1rem 10px;
+    color: rgb(63, 63, 63);
+    border: none;
+    border-radius: 0rem;
+    background: linear-gradient(135deg, rgb(237, 237, 237)0%, rgb(191, 220, 236)100%);
+    box-shadow: 0 18px 14px rgba(0, 0, 0, .1);
+
+}
+
+
+.submitbtn{
+    cursor: pointer;
+    background: rgb(26, 25, 25);
+    color: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+
+
+}
+
+
+@media screen and (max-width:891px) {
+
+
+    .allcontactsinfo{
+        margin-left: -5rem;
+        display:grid;
+        justify-content: center;
+       
+    }
+
+    .clients{
+
+        margin: 10px 0rem;
+      
+       
+    
+    }
+    .contcard {
+  
+        max-width: 230px;
+        height:180px;
+        margin: 5rem 8px;
+        
+    
+    }
+
+    .contlogos {
+        margin: 10px auto;
+        width: 27px;
+        height: 27px;
+    }
+    
+    .contmyball {
+        margin: 2rem 5.5rem;
+    }
+
+
+
+    
+}
+
+
+@media screen and (max-width:621px) {
+
+    .allcontactsinfo{
+        margin-left: -4rem;
+        display:grid;
+        justify-content: center;
+       
+    }
+
+    .clients{
+
+        display:grid;
+        text-align: center;
+        margin: 10px 0rem;
+        /* border: 1px solid red; */
+       
+    
+    }
+
+    .clients{
+
+        margin: 10px 0rem;
+        /* border: 1px solid red; */
+       
+    
+    }
+    .contcard {
+  
+        max-width: 350px;
+        height: 200px;
+        margin: 1rem 1rem;
+        color: #171718;
+        /* background-color: rgb(255, 255, 255); */
+        background: linear-gradient(135deg, rgb(237, 237, 237)0%, rgb(191, 220, 236)100%);
+        box-shadow: 0 18px 14px rgba(0, 0, 0, .22);
+    
+    
+    }
+    .contmyball {
+        margin: 2rem 8rem;
+    }
+    #mycontacts{
+        /* padding: 2rem; */
+        display: flex;
+        justify-content: center;
+      
+    
+    }
+
+    .contactform{
+    
+        margin-left: 0rem;
+    
+      
+    
+    }
+
+    
+}

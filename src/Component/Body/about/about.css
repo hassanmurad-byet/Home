@@ -1,0 +1,866 @@
+.about {
+   
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 219, 225);
+
+
+
+
+}
+
+.abouts {
+
+    margin-left: 10rem;
+    /* border: 1px solid red; */
+
+
+}
+
+.allinfos {
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    margin: 2rem 10px;
+    /* width: 1600px; */
+    /* background-color: rgb(212, 222, 232); */
+}
+
+.myimg {
+
+    width: 330px;
+    height: 440px;
+    margin-top: -1px;
+    /* padding: 5px 5px; */
+    background-color: rgb(179, 179, 179);
+    /* position: fixed; */
+
+}
+
+.blkstyle {
+    background-color: rgb(0, 0, 0);
+    padding: 3px 5px;
+    margin-right: 14rem;
+
+}
+
+.aboutinfo {
+
+    display: grid;
+    justify-content: left;
+
+    margin-top: 1rem;
+
+}
+
+.alltxt {
+    justify-content: left;
+    /* margin: 0px 0; */
+}
+
+.me {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(188, 206, 210);
+    padding: 5px 5px;
+
+    background-color: rgb(110, 120, 123);
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, .22); */
+}
+
+.myname {
+    margin: 25px 0;
+    font-size: 26px;
+    color: rgb(82, 82, 82);
+}
+
+.diss {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+}
+
+
+.details {
+    display: flex;
+    justify-content: left;
+
+}
+
+.detail1 {
+    padding: 1rem 1rem;
+
+
+}
+
+.head {
+    margin: 10px auto;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+
+}
+
+.blod {
+    font-weight: 800;
+    color: rgb(52, 52, 52);
+}
+
+.cv {
+    cursor: pointer;
+    padding: 13px 30px;
+    background-color: black;
+    color: rgb(238, 234, 234);
+    font-weight: 600;
+}
+.resume{
+    text-decoration: none;
+    color: white;
+}
+.cv:hover {
+    background-color: rgb(73, 74, 75);
+}
+
+
+
+
+
+
+.skill {
+
+    margin: 80px auto;
+
+
+
+}
+
+.mytxts {}
+
+.h1skills {
+    color: rgb(79, 79, 79);
+    font-size: 23px;
+    font-weight: 600;
+    padding: 2rem 0px;
+
+
+
+}
+
+.des {}
+
+.blods {
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.extra {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.allskillinfos {
+    display: flex;
+    justify-content: left;
+
+
+}
+
+.allskills {
+
+    width: 420px;
+    margin: 60px 40px;
+    margin-left: -0px;
+    color: #fefefe;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .22);
+
+
+}
+
+.allskill:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0 14px 28px rgba(10, 10, 10, .25), 0 10px 10px rgba(75, 74, 74, 0.22);
+}
+
+
+
+.h2Head {
+    color: rgb(64, 64, 64);
+    font-size: 13px;
+    margin: 0px auto;
+}
+
+.listhed {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.barline {
+    background: #e8e8e8;
+    display: block;
+    height: 5px;
+    border: .5px solid rgba(197, 197, 197, 0.3);
+    /* border-radius: 10px; */
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(60, 60, 60, 0.12), 0, 1px 2px rgba(43, 43, 43, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+}
+
+.barline:hover {
+    box-shadow: 0 14px 28px rgba(28, 28, 28, 0.25), 0 10px 10px rgba(54, 54, 54, 0.22);
+}
+
+.barline span {
+    height: 5px;
+    float: left;
+    background: linear-gradient(135deg, rgb(35, 139, 158)0%, rgb(48, 50, 51)100%);
+
+}
+
+.myhtml {
+    width: 97%;
+    animation: html 3s;
+}
+
+.mycss {
+    width: 94%;
+    animation: css 3s;
+}
+
+.myjavascript {
+    width: 85%;
+    animation: javascript 3s;
+}
+
+.myjava {
+    width: 68%;
+    animation: java 3s;
+}
+
+.myreact {
+    width: 80%;
+    animation: react 3s;
+}
+
+.mypython {
+    width: 75%;
+    animation: python 3s;
+}
+
+.mydjango {
+    width: 50%;
+    animation: django 3s;
+}
+
+.mysql {
+    width: 80%;
+    animation: sql 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 97%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 94%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 68%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes django {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+
+.Hapclinets {
+    /* 
+    border: 1px solid red; */
+
+
+
+
+}
+
+.cli {
+
+    text-align: left;
+    color: rgb(79, 79, 79);
+    font-size: 23px;
+    font-weight: 600;
+
+
+
+}
+
+.happyclients {
+
+    display: flex;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* margin-left: 0rem; */
+
+
+
+
+}
+
+.clientcard {
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    margin: 2rem 10px;
+    /* margin-left: 3rem; */
+    color: #171718;
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient(135deg, rgb(237, 237, 237)0%, rgb(191, 220, 236)100%);
+    box-shadow: 0 18px 14px rgba(0, 0, 0, .22);
+
+
+}
+
+/* .clientcard:hover{
+    transform: scale(0.98);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    
+
+} */
+.logos {
+    margin: 10px auto;
+    width: 27px;
+    height: 27px;
+}
+
+.count {
+    margin-top: -12px;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.counters {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.hapyy {
+    color: #616161;
+    font-size: 15px;
+
+}
+
+
+
+.allpart {
+    margin: 4rem auto;
+    justify-content: left;
+    margin-left: 0rem;
+}
+
+.mypats {
+    text-align: left;
+    color: rgb(79, 79, 79);
+    font-size: 23px;
+    font-weight: 600;
+
+}
+
+.parters {
+    margin-top: -2rem;
+    display: flex;
+    justify-content: left;
+}
+
+.compa {
+    width: 70px;
+    height: 70px;
+    margin: 4rem 1rem;
+}
+
+
+
+.myball {
+    cursor: pointer;
+    margin: 2rem 8rem;
+
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(159, 159, 159, 0.1);
+    background-color: rgb(255, 255, 255);
+    animation: animate 5s ease-in-out infinite;
+    transition: all .2s ease-in-out;
+}
+
+.myball:hover {
+    color: #fefefe;
+    background-color: #000000;
+}
+
+.clientcard:hover,
+.myball:hover {
+    transform: scale(0.98);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+
+
+}
+
+
+
+
+@keyframes animate {
+
+    0%,
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+
+    .allinfos {}
+
+    .abouts {
+
+        margin-left: 0px;
+
+
+
+
+    }
+
+    .allinfos {
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .infos {
+
+        margin: 2rem 10px;
+
+    }
+
+    .aboutinfo {
+
+        display: grid;
+        justify-content: left;
+        margin-top: 0rem;
+
+    }
+
+
+    .detail1 {
+        padding: 1rem 10px;
+    }
+
+    .head {
+        margin: 10px auto;
+        font-size: 13px;
+        color: rgb(98, 98, 98);
+
+    }
+
+    .blod {
+        font-weight: 800;
+        color: rgb(52, 52, 52);
+    }
+
+
+    .skill {
+        display: grid;
+        justify-content: center;
+        /* margin-left: -2rem; */
+    }
+
+    .mytxts {}
+
+    .h1 {
+        color: rgb(79, 79, 79);
+        font-size: 23px;
+        font-weight: 600;
+        padding: 2rem 0px;
+        text-align: center;
+
+
+
+    }
+
+   .diss{
+
+   }
+
+    .blods {
+
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .extra {
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+
+    .allskillinfos {
+        display: grid;
+        justify-content: center;
+
+
+    }
+
+    .allskills {
+
+        max-width: 400px;
+        margin: 20px 40px;
+        color: #fefefe;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+
+
+    }
+
+
+    .Hapclinets {
+
+        justify-content: center;
+
+    }
+
+    .cli {
+
+        text-align: center;
+        color: rgb(79, 79, 79);
+        font-size: 23px;
+        font-weight: 600;
+
+
+
+    }
+
+    .happyclients {
+
+        display: grid;
+        justify-content: center;
+
+
+
+
+
+
+    }
+
+    .clientcard {
+
+        /* width: 300px; */
+        height: 200px;
+        margin: 2rem 0px;
+        /* margin-left: 3rem; */
+
+
+    }
+
+
+    .allpart {
+        margin: 4rem auto;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .mypats {
+        text-align: center;
+    }
+
+    .parters {
+        margin-top: -2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .infos {
+        display: grid;
+        justify-content: center;
+      
+        margin: 2rem 30px;
+
+    }
+
+    .alltxt {
+        display: grid;
+        justify-content: center;
+        margin: 0px 2rem;
+
+    }
+
+    .me {
+        font-size: 15px;
+
+    }
+
+    .myname {
+        margin: 15px 0;
+        font-weight: 600;
+        font-size: 17px;
+
+    }
+
+    .diss {
+
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(95, 95, 95);
+    }
+
+
+
+
+    .aboutinfo {
+
+        display: grid;
+        justify-content: center;
+        margin-top: 0rem;
+
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        margin: 0px 1rem;
+
+    }
+
+
+    .detail1 {
+        padding: 1rem 10px;
+    }
+
+    .head {
+        margin: 10px auto;
+        font-size: 13px;
+        color: rgb(98, 98, 98);
+
+    }
+
+    .blod {
+        font-weight: 800;
+        color: rgb(52, 52, 52);
+    }
+
+
+    .cv {
+        margin: 0px 3rem;
+
+
+
+    }
+
+
+    .skill {
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .mytxts {
+        margin: 0px 10px;
+
+
+    }
+
+    .h1skills {
+        color: rgb(79, 79, 79);
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 10px;
+        text-align: center;
+
+
+
+    }
+
+    .des {
+
+        margin: 0px 5px;
+
+    }
+
+    .blods {
+
+        font-size: 14px;
+        font-weight: 600;
+
+
+    }
+
+    .extra {
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+
+    .skill {}
+
+    .allskillinfos {
+        display: grid;
+        justify-content: center;
+
+
+    }
+
+    .allskills {
+
+        max-width: 350px;
+        margin: 20px 40px;
+        color: #fefefe;
+        background-color: rgb(255, 255, 255);
+        padding: 1px;
+
+
+    }
+
+
+    .Hapclinets {
+
+        justify-content: center;
+
+    }
+
+    .cli {
+
+        text-align: center;
+        color: rgb(79, 79, 79);
+        font-size: 23px;
+        font-weight: 600;
+
+
+
+    }
+
+    .happyclients {
+
+        display: grid;
+        justify-content: center;
+
+
+
+
+
+
+    }
+
+    .clientcard {
+
+        width: 300px;
+        height: 200px;
+        margin: 2rem 0px;
+        /* margin-left: 3rem; */
+
+
+    }
+
+
+    .allpart {
+        margin: 4rem auto;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .mypats {
+        text-align: center;
+    }
+
+    .parters {
+        margin-top: -2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,74 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+
+    padding: 5rem 6rem;   
+    background-color: rgb(211, 219, 225);
+    
+}
+
+.port {
+   
+  margin-left: 10rem;
+
+
+}
+
+
+
+.mes {
+    color: rgb(57, 56, 56);
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px 10px;
+    /* background-color: rgb(213, 219, 225); */
+}
+
+.works {
+    font-size: 35px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+.catagory {
+
+    /* width: 520px;
+    height: 400px;
+    margin: 2rem;
+  */
+    
+    
+   
+
+}
+
+@media screen and (max-width:991px) {
+    
+    .port {
+   
+        margin-left:0rem;
+      
+      
+      }
+      
+}
+
+@media screen  and (max-width:600px) {
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;    
+        
+    }
+    .port {
+        margin-left: 1.5rem;
+       
+      
+      
+      }
+    
+}

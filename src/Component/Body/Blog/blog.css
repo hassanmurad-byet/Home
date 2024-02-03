@@ -1,0 +1,159 @@
+
+.myblogss{
+    background-color: rgb(211, 219, 225); 
+    padding: 5rem 6rem;   
+    display: flex;
+    justify-content:left;
+   
+    height: 250vh;
+
+}
+
+.myallblogs{
+
+    margin-left: 10rem;
+
+}
+.myblg{
+
+  
+   
+    
+}
+.channeltxt{
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+.channel{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: -2.5rem;
+    /* background-color: rgb(211, 219, 225);  */
+ 
+   
+}
+.channel1{
+
+    width:460px;
+    height: 280px;
+    margin: 5rem 1rem;
+    padding: 4rem auto;
+ 
+}
+.channel2{
+
+    width:460px;
+    height: 280px;
+    margin: 5rem 1rem;
+    padding: 4rem auto;
+  
+}
+
+.hassan{
+  
+   display: flex;
+   justify-content: center;
+   margin: 1rem;
+
+   /* padding: 10px 5px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 10px 18px 14px rgba(0, 0, 0, .21); */
+}
+
+.blogvideo{
+    padding: 5px 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 18px 14px rgba(0, 0, 0, .21);
+}
+
+@media screen and (max-width:991px) {
+
+    .myblogss{
+        /* background-color: rgb(211, 219, 225);  */
+        height: 340vh;
+    
+    
+    }
+
+    .myallblogs{
+
+        margin-left: -4rem;
+      
+    }
+
+    .channel{
+        display: grid;
+        justify-content: center;
+        /* margin-left: -8rem; */
+        margin-top: -4rem;
+     
+     
+       
+    }
+    .channel1{
+    
+        width:520px;
+        height: 280px;
+        margin: 5rem 1rem;
+       padding: 4rem auto;
+       margin-bottom: 79rem;
+    }
+    .channel2{
+    
+        width:520px;
+        height: 280px;
+        margin: 5rem 1rem;
+       padding: 4rem auto;
+      
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .myallblogs{
+        margin-left: -.6rem;
+        margin-top: -3rem;
+      
+
+    }
+    .myallblogs{
+
+        margin-left: -.7rem;
+    
+    }
+    .myblg{
+        margin-left: -1.5rem;
+    
+    }
+
+    .channel{
+        display:grid;
+        justify-content: center;
+        margin-left: -4rem;
+        margin-top: -10rem;
+    
+    }
+
+    .channel1{
+        
+        width:340px;
+        height: 280px;
+        /* margin: 5rem 0rem; */
+        padding: 4rem 0px;
+        margin-bottom: 55rem;
+    }
+
+    .channel2{
+       
+        width:340px;
+        height: 280px;
+        /* margin: 4rem 0rem; */
+        /* padding: 4rem 5px; */
+    }
+    
+
+}

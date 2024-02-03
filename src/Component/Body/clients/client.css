@@ -1,0 +1,71 @@
+
+.client{
+ /* height: calc(100vh - 0rem); */
+ display: grid;
+ background-color: rgb(211, 219, 225);
+ padding: 5rem 6rem; 
+
+
+}
+.myclients{
+ 
+    margin-top: -2rem;
+}
+.mycli{
+    
+    margin-left: 10rem;
+}
+.clientHead{
+    font-size: 50px;
+    font-weight: 600;
+   
+}
+
+.span{
+    padding: 3px 15px;
+    font-size: 15px;
+    background-color: antiquewhite;
+  
+   
+}
+.allcomments{
+   
+
+    display:flex;
+    margin: 12rem 0; 
+    margin-top: 8rem;
+ 
+}
+
+@media screen and (max-width:991px) {
+
+.client{
+   /* height: calc(100vh - 0rem); */
+    padding: 23rem 0rem
+   
+   
+   }
+
+    .mycli{
+        margin-left: 3.2rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .client{
+        
+     
+      
+        
+        
+        }
+
+    .mycli{
+        margin-top: -18rem;
+        margin-left: 2.2rem;
+    }
+
+}
