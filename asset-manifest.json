@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Home/static/css/main.e81af57e.css",
+    "main.js": "/Home/static/js/main.ea135f7f.js",
+    "static/js/787.d26491af.chunk.js": "/Home/static/js/787.d26491af.chunk.js",
+    "static/media/django.mp4": "/Home/static/media/django.e887de8538f392f3933a.mp4",
+    "static/media/Bookstore.mp4": "/Home/static/media/Bookstore.f1d57e72529ce62d942f.mp4",
+    "static/media/taekwondo.mp4": "/Home/static/media/taekwondo.e1e044d8994d10c8fb34.mp4",
+    "static/media/weather.mp4": "/Home/static/media/weather.cc2d439852e8af77e8e0.mp4",
+    "static/media/machin.mp4": "/Home/static/media/machin.f0ed64bbf1d869bbdb08.mp4",
+    "static/media/iubat.mp4": "/Home/static/media/iubat.a134a661136d081829cf.mp4",
+    "static/media/person3.png": "/Home/static/media/person3.6ca8a8d0d9062e404b87.png",
+    "static/media/hostel.png": "/Home/static/media/hostel.7faabfd51328eb404cc4.png",
+    "static/media/iubat-1.png": "/Home/static/media/iubat-1.de92a92ff3e6c34a7251.png",
+    "static/media/book.png": "/Home/static/media/book.ee66f0791b5a3dec3ffa.png",
+    "static/media/mchin.png": "/Home/static/media/mchin.4edbe42d86c39549fb6e.png",
+    "static/media/tkd2.png": "/Home/static/media/tkd2.632a9b2c5de49e89eba3.png",
+    "static/media/person4.png": "/Home/static/media/person4.4bf086674d463023be6b.png",
+    "static/media/person2.png": "/Home/static/media/person2.8e24ce271e0515dea9b3.png",
+    "static/media/img22.jpeg": "/Home/static/media/img22.d45b6585b3a291bda380.jpeg",
+    "static/media/person1.png": "/Home/static/media/person1.981077d69e2fb58938d4.png",
+    "static/media/img.jpeg": "/Home/static/media/img.718e607baefacfab5bc5.jpeg",
+    "static/media/weather.png": "/Home/static/media/weather.d491081e8a69294b67eb.png",
+    "static/media/logo.jpg": "/Home/static/media/logo.8a3cab1a0540609ce01b.jpg",
+    "static/media/resume.pdf": "/Home/static/media/resume.334c5a5791edcd7c0202.pdf",
+    "static/media/Iubat-logo.png": "/Home/static/media/Iubat-logo.7fd29c033ea4b4280a56.png",
+    "index.html": "/Home/index.html",
+    "main.e81af57e.css.map": "/Home/static/css/main.e81af57e.css.map",
+    "main.ea135f7f.js.map": "/Home/static/js/main.ea135f7f.js.map",
+    "787.d26491af.chunk.js.map": "/Home/static/js/787.d26491af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81af57e.css",
+    "static/js/main.ea135f7f.js"
+  ]
+}
